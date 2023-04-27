@@ -16,4 +16,5 @@ public class Context : DbContext
     }
 
     public virtual DbSet<Contact> contacts { get; set; } = null!;
+    public virtual DbSet<Users> users { get; set; } = null!;
 }

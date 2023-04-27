@@ -73,3 +73,4 @@ C:\Users\TefoHashatse\Documents\GitHub\CRUD_Anguler_NetCore_Postgres\webapi\bin\
 C:\Users\TefoHashatse\Documents\GitHub\CRUD_Anguler_NetCore_Postgres\webapi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\TefoHashatse\Documents\GitHub\CRUD_Anguler_NetCore_Postgres\webapi\bin\Debug\net7.0\Data.dll
 C:\Users\TefoHashatse\Documents\GitHub\CRUD_Anguler_NetCore_Postgres\webapi\bin\Debug\net7.0\Data.pdb
+C:\Users\TefoHashatse\Documents\GitHub\CRUD_Anguler_NetCore_Postgres\webapi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

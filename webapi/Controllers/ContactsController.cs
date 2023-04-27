@@ -1,4 +1,5 @@
 using Data.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using webapi.Models;
@@ -7,6 +8,7 @@ namespace webapi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Authorize]
 public class ContactsController : ControllerBase
 {
     private Context _context;

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mPN4XlAqURQPS2fAQTPTjFnCiDhsZbmhC/zSS+cYNXCMcd8VbhvuXwp235750aKYPgArXXi4J0x1/yxLK8GCLQ==",
+  "dgSpecHash": "1cEpPNCAbJJsKQzg8lSw79BZFKvJ2WirH46Fo4iBVTpAc1Ahu0jfnORAlpwzvvd2/ZB4d+s26k4dDTZfnrB7RA==",
   "success": true,
   "projectFilePath": "C:\\Users\\TefoHashatse\\Documents\\GitHub\\CRUD_Anguler_NetCore_Postgres\\webapi\\webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TefoHashatse\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\TefoHashatse\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\TefoHashatse\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "C:\\Users\\TefoHashatse\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\TefoHashatse\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\TefoHashatse\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

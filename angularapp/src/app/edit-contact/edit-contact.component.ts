@@ -135,9 +135,7 @@ export class EditContactComponent implements OnInit, OnDestroy {
       return false;
   }
 
-  //see https://regexr.com/3e48o for another exemple
-
   return() {
-    this.router.navigate(['/']);
+    this.router.navigate(['/List']);
   }
 }
