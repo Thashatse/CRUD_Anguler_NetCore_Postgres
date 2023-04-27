@@ -1,0 +1,34 @@
+<h1 id="tableLabel">Contacts</h1>
+
+<p *ngIf="!contacts"><em>Loading...</em></p>
+
+<button (click)="onAddClick()" *ngIf="contacts" color="primary">Add</button>
+<button (click)="refreshData()" clickable>Refresh</button>
+
+<table *ngIf="contacts">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Telephone Number</th>
+      <th>Email Address</th>
+      <th>Date Of Birth</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contact of contacts">
+      <td>{{ contact.name }}</td>
+      <td>{{ contact.surname }}</td>
+      <td>0{{ contact.telephoneNumber }}</td>
+      <td>{{ contact.emailAddresss }}</td>
+      <td>{{ (contact.dateOfBirth | date  : 'yyyy/MM/dd') }}</td>
+      <td>
+        <button (click)="onEditClick($event, contact.id)" clickable>Edit</button>
+        <button (click)="onDeleteClick($event, contact.id)" clickable>Delete</button>
+      </td>
+    </tr>
+  </tbody>
+  <button (click)="onPreviousPageClick()" clickable>Previous</button>
+  <span>Page No. {{this.page}}</span>
+  <button (click)="onNextPageClick()" clickable>Next</button>
+</table>

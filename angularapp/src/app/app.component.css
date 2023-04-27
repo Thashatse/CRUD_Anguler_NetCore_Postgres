@@ -1,0 +1,10 @@
+td, th {
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button {
+  margin: 5px;
+}
